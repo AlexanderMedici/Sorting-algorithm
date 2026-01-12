@@ -1,5 +1,11 @@
 # Sorting Visualizer
 
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=000)
+![CSS](https://img.shields.io/badge/CSS-3-2965f1?logo=css3&logoColor=white)
+![Create React App](https://img.shields.io/badge/Create%20React%20App-5-09d3ac?logo=createreactapp&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-LTS-339933?logo=node.js&logoColor=white)
+
 Interactive sorting visualizer built with React. It renders a bar chart array and animates multiple sorting algorithms with controls, live feedback, and toast notifications.
 
 ## Features
