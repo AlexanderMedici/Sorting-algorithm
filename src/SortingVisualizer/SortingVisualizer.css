@@ -1,0 +1,103 @@
+.array-container{
+    min-height: 100vh;
+    padding: 24px 24px 36px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-x: hidden;
+}
+.array-bar{
+    width: 2px; 
+    display: inline-block; 
+    margin: 0 1px; 
+    flex: 0 0 auto;
+    
+}
+
+.bars-row {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 60vh;
+    overflow: hidden;
+}
+
+.controls-row {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.array-container button {
+    margin: 10px 0 0 0;
+    padding: 10px 14px;
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #1d4d9f 0%, #0f3b82 100%);
+    color: #f4f7ff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: transform 0.08s ease, box-shadow 0.12s ease, background 0.12s ease;
+    box-shadow: 0 6px 14px rgba(11, 45, 102, 0.25);
+}
+
+.array-container button:hover {
+    background: linear-gradient(180deg, #2562c6 0%, #10418f 100%);
+    box-shadow: 0 8px 18px rgba(11, 45, 102, 0.32);
+    transform: translateY(-1px);
+}
+
+.array-container button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(11, 45, 102, 0.24);
+}
+
+.array-container button:focus {
+    outline: 2px solid #f0c419;
+    outline-offset: 2px;
+}
+
+.test-status {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0b2d66;
+}
+
+.Toastify__close-button {
+    background: transparent;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.Toastify__close-button:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .array-container {
+        padding: 16px 12px 24px;
+    }
+
+    .array-bar {
+        width: 1px;
+        margin: 0 1px;
+    }
+
+    .bars-row {
+        min-height: 45vh;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .array-container button {
+        padding: 9px 12px;
+        font-size: 13px;
+    }
+}
