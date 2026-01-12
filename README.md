@@ -13,6 +13,8 @@ Interactive sorting visualizer built with React. It renders a bar chart array an
 
 ## Demo
 
+Live demo: https://sorting-algorithm-bex2.onrender.com/
+
 Run locally and open http://localhost:3000 after starting the dev server.
 
 ## Getting Started
